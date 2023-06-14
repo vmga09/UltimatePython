@@ -1,0 +1,13 @@
+Instalar jupyter
+https://www.youtube.com/watch?v=RfQt06RGfT0
+
+
+sudo apt update
+sudo apt install python3-pip
+sudo pip3 install --upgrade pip
+sudo pip3 install virtualenv
+mkdir notebook
+cd notebook
+virtualenv notebookenv
+source notebookenv/bin/activate
+pip install jupyter
