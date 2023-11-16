@@ -12,3 +12,12 @@ for numero in range(10):
     if numero == buscar:
         print(f"Encontrado {numero}")
         break
+    
+    
+buscar = 7
+for numero in range(5):
+    if numero == buscar:
+        print(f"Encontrado {numero}")
+        break
+else:
+     print("Numero no encontrado")
