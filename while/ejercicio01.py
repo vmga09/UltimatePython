@@ -22,7 +22,7 @@ while numero != "Salir" or operacion != "Salir":
         elif operacion.lower() == "salir":
             break
         else:
-            print(f"Ingrese una operacion válida")
+            print("Ingrese una operacion válida")
     else:
         operacion = input("Ingrese operacion\n")
         numero_sig = float(input("Ingrese numero siguiente\n"))
@@ -41,4 +41,4 @@ while numero != "Salir" or operacion != "Salir":
         elif operacion.lower() == "salir":
             break
         else:
-            print(f"Ingrese una operacion válida")
+            print("Ingrese una operacion válida")
